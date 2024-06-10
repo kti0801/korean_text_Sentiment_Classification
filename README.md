@@ -1,9 +1,9 @@
 # korean_text_Sentiment_Classification
 
-# 대화 데이터를 통한 단극성/양극성 정동장애 구별 보조 지표<br/>세모난 마음을 동그랗게 세.마.동
+# 대화 데이터를 통한 단극성/양극성 정동장애 구별 보조지표<br/>세모난 마음을 동그랗게 세.마.동
 
 ## :alarm_clock: 개발 기간: 5월 9일(목) ~ 6월 4일(수)
-![image]()
+![image](image/diagram.PNG)
 ## 개발환경:
 |IDE|프로그래밍<br/>언어|
 |------|---|
