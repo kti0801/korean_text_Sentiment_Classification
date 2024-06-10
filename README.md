@@ -5,9 +5,11 @@
 ## :alarm_clock: 개발 기간: 5월 9일(목) ~ 6월 4일(수)
 ![image](image/diagram.PNG)
 ## 개발환경:
+![image](image/env.PNG)
 |IDE|프로그래밍<br/>언어|
 |------|---|
 |![Coalb](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)|![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)|
+
 
 ## :people_holding_hands: 멤버구성 및 역할
 김토일(팀장): EDA, Modeling(KoBert, Koelectra-base), preprocessing, text augmentation(gemeni), Presentation, PPT
@@ -25,8 +27,7 @@
 
 ## :robot: 모델 개발
 > ### DATA
-![image]()
-![image]()
+![image](image/data1.PNG)
 
 ### 데이터 출처
 https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=86
@@ -35,25 +36,21 @@ https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=271
 
 ### 데이터 증강 
 google gemini 프롬프트를 이용해 텍스트 감성 데이터 증강
-![image]()
+![image](image/data3.PNG)
+![image](image/data4.PNG)
 
 > ### EDA
 wordcloud
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
+![image](image/data5.PNG)
 
 
 > ### Preprocessing
 
+![image](image/preprocessing1.PNG)
 
-![image]()
+![image](image/preprocessing2.PNG)
 
-
-
-![image]()
+기타 전처리 : 불용어 처리, Lemmatization, Nomalizer, mecab 형태소 분리
 
 
 
@@ -62,6 +59,8 @@ wordcloud
 rnn, lstm, KoBert, Koelectra-base, Koelectra-small 모델을 돌려보고 f1-score 및 acc를 측정하였습니다.
 
 모든 모델들의 f1-score와 acc를 측정한 결과, 단일 모델인 Koelectra-base가 f1-score 0.791, acc 78.8%로 가장 높은 성능을 보였습니다. 따라서 Koelectra-base를 감정 분석 모델로 선정했습니다.
+
+
 
 
 
