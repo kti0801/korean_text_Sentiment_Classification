@@ -1,6 +1,6 @@
 # korean_text_Sentiment_Classification
 
-# 텍스트 감정 분석 모델을 통해 단극성/양극성 정동장애 구별 보조 지표의 제시<br/>Music Face
+# 대화 데이터를 통한 단극성/양극성 정동장애 구별 보조 지표<br/>세모난 마음을 동그랗게 세.마.동
 
 ## :alarm_clock: 개발 기간: 5월 9일(목) ~ 6월 4일(수)
 ![image]()
