@@ -56,9 +56,12 @@ wordcloud
 
 > ### Modeling
 
+![image](image/result.PNG)
+
 rnn, lstm, KoBert, Koelectra-base, Koelectra-small 모델을 돌려보고 f1-score 및 acc를 측정하였습니다.
 
 모든 모델들의 f1-score와 acc를 측정한 결과, 단일 모델인 Koelectra-base가 f1-score 0.791, acc 78.8%로 가장 높은 성능을 보였습니다. 따라서 Koelectra-base를 감정 분석 모델로 선정했습니다.
+
 
 
 
